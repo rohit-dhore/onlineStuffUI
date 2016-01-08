@@ -1,7 +1,112 @@
 $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
 // bower:scss
-@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+@import 'bootstrap-sass-official/assets/stylesheets/_bootstrap.scss';
 // endbower
+
+body {
+   /* background-image: url("../assets/bg-image.jpg");
+    background-repeat: repeat;*/
+}
+
+.header{
+  background-color: #000000;
+}
+
+.header-container{
+  padding: 20px;
+}
+
+.logo-img
+{
+  width: 60px;
+}
+
+.logo-txt{
+  font-size: 30px;
+  color: #FF7700;
+  cursor: pointer;
+}
+
+.navbar-brand {
+  float: left;
+  padding: 15px 0px;
+}
+
+.navbar-header {
+    padding-left: 0px;
+}
+.filter-bar{
+  background-color: #B0CFDA;
+  padding: 20px;
+}
+
+.add-holder{
+  background-color: #ccc;
+  height: 800px;
+  
+  text-align: center;
+}
+
+.main-view{
+    margin-top: 10px;
+}
+
+.center-div{
+  margin: 0 auto;
+    float: none;
+}
+
+.user-account{
+  padding: 15px 0px;
+}
+
+.category{
+  padding: 15px;
+}
+
+.category-holder{
+  padding: 10px;
+  border-right: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+}
+
+.category-holder img{
+  width: 100%;
+  cursor: pointer;
+}
+
+.user-links-out{
+  color: #ffffff;
+}
+
+.user-links-out a{
+  color: #ffffff;
+}
+
+.user-links-out a:hover{
+  color: #2965BE;
+}
+
+.top-seling-heading{
+  border-bottom: solid 2px;
+}
+.top-seling-gallery{
+  padding: 10px;
+}
+
+.text-align-center{
+  text-align: center;
+}
+
+.margin-0-auto{
+  margin: 0 auto;
+}
+
+
+.cellContainer {
+    margin:0 auto;
+    display: inline-block;
+}
 
 .browsehappy {
   margin: 0.2em 0;
@@ -25,7 +130,6 @@ body {
 /* Custom page header */
 .header {
   border-bottom: 1px solid #e5e5e5;
-  margin-bottom: 10px;
 
   /* Make the masthead heading the same height as the navigation */
   h3 {
@@ -34,6 +138,11 @@ body {
     line-height: 40px;
     padding-bottom: 19px;
   }
+}
+
+
+.navbar {
+  margin-bottom: 0px;
 }
 
 /* Custom page footer */
@@ -82,7 +191,6 @@ body {
   }
   /* Space out the masthead */
   .header {
-    margin-bottom: 30px;
   }
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {

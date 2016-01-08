@@ -1,0 +1,71 @@
+<div class="col-md-12">
+	<div class="row filter-bar">
+		<div class="col-md-3">
+			<input type="text" class="form-control col-md-12" placeholder="Type location" id="location">
+		</div>
+		<div class="col-md-3"> 
+			<select class="form-control" id="categorySelect"  ng-options="item as item.name for item in vm.categories track by item.id" ng-model="vm.selectedCategory">
+			  </select>
+		</div>
+		<div class="col-md-3">
+			<input type="text" class="form-control col-md-12" placeholder="Type keyword" id="search-txt">
+		</div>
+		<div class="col-md-3 pull-right">
+			<button type="button" class="btn btn-default pull-right">
+				Search
+			</button>
+		</div>
+	</div>
+	<div class="row category">
+		<div class="col-md-6">
+			<div class="row hidden-xs">
+				<div ng-repeat="category in vm.categories" class="col-md-4 category-holder text-align-center">
+					<img alt="Bootstrap Image Preview" src="{{category.img_url}}" />
+					<span>{{category.name}}</span>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="row ">
+				<div class="col-md-12">
+					<video width="300" controls>
+					  <source src="mov_bbb.mp4" type="video/mp4">
+					  <source src="mov_bbb.ogg" type="video/ogg">
+					  Your browser does not support HTML5 video.
+					</video>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12 top-seling-heading">
+			<h2>
+				Top selling
+			</h2>
+		</div>
+	</div>
+	<div class="row top-seling-gallery">
+		<div class="col-md-12">
+			<div class="row">
+				<div class="col-md-2">
+					<img alt="Bootstrap Image Preview" src="http://lorempixel.com/140/140/"  />
+				</div>
+				<div class="col-md-2">
+					<img alt="Bootstrap Image Preview" src="http://lorempixel.com/140/140/"  />
+				</div>
+				<div class="col-md-2">
+					<img alt="Bootstrap Image Preview" src="http://lorempixel.com/140/140/"  />
+				</div>
+				<div class="col-md-2">
+					<img alt="Bootstrap Image Preview" src="http://lorempixel.com/140/140/"  />
+				</div>
+				<div class="col-md-2">
+					<img alt="Bootstrap Image Preview" src="http://lorempixel.com/140/140/"  />
+				</div>
+				<div class="col-md-2">
+					<img alt="Bootstrap Image Preview" src="http://lorempixel.com/140/140/"  />
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

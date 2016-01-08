@@ -1,0 +1,42 @@
+{
+	"categories":[{
+			"id": 1,
+			"name": "Ganesh murti",
+			"img_url": "assets/image.jpg"
+		},
+		{
+			"id": 2,
+			"name": "Ganesh murti",
+			"img_url": "assets/image.jpg"
+		},
+		{
+			"id": 3,
+			"name": "Ganesh murti",
+			"img_url": "assets/image.jpg"
+		},
+		{
+			"id": 4,
+			"name": "Ganesh murti",
+			"img_url": "assets/image.jpg"
+		},
+		{
+			"id": 5,
+			"name": "Ganesh murti",
+			"img_url": "assets/image.jpg"
+		},
+		{
+			"id": 6,
+			"name": "Ganesh murti",
+			"img_url": "assets/image.jpg"
+		},
+		{
+			"id": 7,
+			"name": "Ganesh murti",
+			"img_url": "assets/image.jpg"
+		},
+		{
+			"id": 8,
+			"name": "Ganesh murti",
+			"img_url": "assets/image.jpg"
+		} ]
+}
